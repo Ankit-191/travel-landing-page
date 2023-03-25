@@ -536,6 +536,12 @@
     }
 }
 
+@media (min-width:768px) {
+    .Find_Popular_Destination_box{
+        height: 440px;
+    }
+}
+
 @media (min-width:576px) {
     .white_box {
         width: 450px;
