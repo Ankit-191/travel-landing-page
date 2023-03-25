@@ -382,6 +382,10 @@
     width: 100%;
 }
 
+.text_hover:hover{
+    color: #F66F4D;
+}
+
 .search_hover:hover rect {
     fill: #FFD482;
 }
