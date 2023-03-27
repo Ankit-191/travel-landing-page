@@ -158,7 +158,11 @@
     color: var(--color-white);
 }
 
-
+.position_right_top{
+    right: 15px;
+    top: 15px;
+    transition: all 0.3s linear;
+}
 
 .Book_Now {
     border: 1.4px solid #F66F4D;
@@ -169,6 +173,10 @@
 
 .Book_Now:hover {
     background-color: white;
+}
+
+.Book_Now:hover .position_right_top{
+    top: -16px;
 }
 
 .nav_btn {
@@ -189,8 +197,6 @@
 .border_right_1 {
     border-right: 1px solid #EAEAEB;
 }
-
-
 
 .slider_btn {
     height: 60px;
