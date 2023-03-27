@@ -164,6 +164,11 @@
     border: 1.4px solid #F66F4D;
     border-radius: 27px;
     background-color: var(--color-FAF8ED);
+    transition: all 0.3s linear;
+}
+
+.Book_Now:hover {
+    background-color: white;
 }
 
 .nav_btn {
@@ -185,9 +190,7 @@
     border-right: 1px solid #EAEAEB;
 }
 
-.slick-dots {
-    display: none !important;
-}
+
 
 .slider_btn {
     height: 60px;
@@ -256,6 +259,7 @@
 
 .btn_book_now {
     border-radius: 46px;
+    border: 1px solid #2D3134;
     color: var(--color-2D3134);
     width: 100px;
     height: 37px;
@@ -379,10 +383,10 @@
 }
 
 .text_hover:hover:after {
-    width: 100%;
+    width: 30%;
 }
 
-.text_hover:hover{
+.text_hover:hover {
     color: #F66F4D;
 }
 
@@ -415,12 +419,12 @@
     left: 50%;
 }
 
-.left_50{
+.left_50 {
     left: -50%;
     transition: all 0.2s linear;
 }
 
-.backToTop{
+.backToTop {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -428,9 +432,10 @@
     transition: all 0.3s linear;
 }
 
-.backToTop:hover circle{
+.backToTop:hover circle {
     fill: #F66F4D;
 }
+
 
 @media (max-width:768px) {
     .nav_bar {
@@ -498,6 +503,10 @@
     .md_fsize_46 {
         font-size: var(--font-size-46);
     }
+
+    .md_fsize_18 {
+        font-size: var(--font-size-18);
+    }
 }
 
 @media (max-width:1200px) {
@@ -508,11 +517,14 @@
     .lg_fsize_46 {
         font-size: var(--font-size-46);
     }
+
 }
 
-
-
 @media (max-width:576px) {
+    .sm_fsize_16 {
+        font-size: var(--font-size-16);
+    }
+
     .fsize_40 {
         font-size: var(--font-size-40);
     }
@@ -540,11 +552,7 @@
     }
 }
 
-@media (min-width:768px) {
-    .Find_Popular_Destination_box{
-        height: 440px;
-    }
-}
+@media (min-width:768px) {}
 
 @media (min-width:576px) {
     .white_box {
@@ -552,5 +560,9 @@
         height: 60px;
         padding: 10px;
         border-radius: 12px;
+    }
+
+    .lh_80 {
+        line-height: 86px;
     }
 }
