@@ -315,6 +315,19 @@
     grid-row: 2/3;
 }
 
+.grid_item{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img_scale{
+    transition: all 0.3s linear;
+}
+
+.img_scale:hover{
+    transform: scale(1.04);
+}
+
 .Andrew_Sarma_box {
     background: var(--color-white);
     border-radius: 14px;
