@@ -315,17 +315,31 @@
     grid-row: 2/3;
 }
 
-.grid_item{
+.grid_item {
     border-radius: 20px;
     overflow: hidden;
 }
 
-.img_scale{
+.img_scale {
     transition: all 0.3s linear;
 }
 
-.img_scale:hover{
+.grid_item:hover .img_scale {
     transform: scale(1.04);
+}
+
+.br_12 {
+    border-radius: 12px;
+}
+
+.bg_color_white {
+    background-color: white;
+    width: 42px;
+}
+
+.bg_color {
+    background: linear-gradient(180deg, rgba(30, 30, 28, 0) 62%, rgba(20, 20, 18, 0.9) 100%),
+        url(image.png);
 }
 
 .Andrew_Sarma_box {
@@ -477,6 +491,7 @@
     bottom: 30px;
     transform: rotate(-90deg);
     transition: all 0.3s linear;
+    display: none;
 }
 
 .backToTop:hover circle {
