@@ -404,6 +404,14 @@
     stroke: var(--color-F66F4D);
 }
 
+.icon a:hover .tranform {
+    transform: translateY(-6px);
+}
+
+.tranform{
+    transition: all 0.3s linear;
+}
+
 .text_hover::after {
     content: ' ';
     position: absolute;
