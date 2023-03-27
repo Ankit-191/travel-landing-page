@@ -417,18 +417,45 @@
 
 }
 
+.border_radius_85 {
+    border-radius: 85px;
+}
+
+.scal_img:hover {
+    transform: scale(1.1);
+}
+
+
+.scal_img {
+    transition: all 0.4s linear;
+}
+
 .our_box_hover:hover {
     background-color: #F66F4D;
 }
 
 .visit_hover:hover .left_50 {
     opacity: 1;
+
+}
+
+.br_16 {
+    border-radius: 16px;
 }
 
 .left_50 {
     left: 50%;
     opacity: 0;
+    z-index: 1;
     transition: all 0.7s linear;
+}
+
+.scal_img_01 {
+    transition: all 0.3s linear;
+}
+
+.scal_img_01:hover {
+    transform: scale(1.05);
 }
 
 .backToTop {
